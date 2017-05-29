@@ -32,3 +32,5 @@ found in `project_questions.md`.
 
 - Udacity's Data Analyst Nanodegree [Intro to Machine Learning Course](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 - Scikit-learn's [documentation](http://scikit-learn.org/stable/user_guide.html)
+
+I hereby confirm that this submission is my work. I have cited above the origins of any parts of the submission that were taken from Websites, books, forums, blog posts, github repositories, etc.
