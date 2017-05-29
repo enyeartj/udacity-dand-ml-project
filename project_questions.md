@@ -11,6 +11,26 @@ machine learning can be used to find which features are the best predictors of
 who is a POI, and then use that information to make predictions about other
 POIs.
 
+Here are some characteristics of the dataset:
+
+- 146 data points (corresponding to 144 people because the other 2 are 'TOTAL'
+and 'THE TRAVEL AGENCY IN THE PARK' described below)
+- 18 data points correspond to POIs, the other 128 are non-POIs
+- 20 features aside from those that I added (addressed in question #2)
+- 4 features used in final algorithm (addressed in question #2)
+
+There were two features that that were mostly zeros for all of the data points.
+The first was `director_fees`, which had only 16 non-zero data points. The
+second was `loan_advances`, which only had 3 non-zero data points. All the other
+features had reasonable amounts of actual data points.
+
+There were a few features corresponding to the emails: `from_messages`,
+`to_messages`, `from_poi_to_this_person`, and `from_this_person_to_poi`. I also
+developed two new features corresponding to emails, described in question #2.
+
+The rest of the features were related to financial information such as `salary`,
+`bonus`, etc. for each person.
+
 In order to identify outliers, I made a series of histograms to represent POIs
 and non-POIs for each feature, and noted which data points were statistical
 outliers. The script for generating these histograms can be found in
